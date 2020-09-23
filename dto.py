@@ -1,6 +1,6 @@
 from flask_restx import Namespace, fields
 
-ns = Namespace('Uprocs', description='Endpoints related to uprocs.')
+ns = Namespace('Tasks', description='Endpoints related to tasks.')
 
 new_tasks_args_dto = ns.model('Args', {
     'arg': fields.String,
